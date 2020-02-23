@@ -116,6 +116,7 @@ strong {
     color: $blue;
     text-transform: uppercase;
     text-align: right;
+    font-size: 1.4rem;
     font-weight: 700;
     letter-spacing: 2px;
     @include desktop {
@@ -131,7 +132,7 @@ strong {
   }
   &__content {
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 100%;
     max-width: 650px;
     @include tablet {
