@@ -1,0 +1,11 @@
+<div class="left-side-socials">
+  <ul>
+    {% for link in site.social %}
+    <li>
+      <a href="{{link.url}}" target="_blank" title="{{link.title}}">
+        <i class="ri-{{link.icon}}-fill ri-lg"></i>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

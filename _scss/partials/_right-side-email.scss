@@ -1,0 +1,32 @@
+.right-side-email {
+  width: 40px;
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  left: auto;
+  z-index: 10;
+
+  @include desktop {
+    display: none;
+  }
+
+  a {
+    writing-mode: vertical-rl;
+    margin: 20px auto;
+    padding: 10px;
+
+    &:hover, &:focus {
+      transform: translateY(-3px);
+      color: $blue;
+    }
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    background-color: $blue;
+    margin: 0 auto;
+  }
+}

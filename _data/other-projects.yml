@@ -1,162 +1,109 @@
-- name: Surf Videos
-  url: https://github.com/bchiang7/Surf-Videos
-  code: https://github.com/bchiang7/Surf-Videos
-  description: Small React project created during an interview process to browse and search surf videos via the YouTube API.
+- name: IRS System
+  url: http://140.116.177.47/irsweb/lecturer/question
+  code: https://github.com/sarapmax/IRS-System-Masters-Project
+  description: IRS System is a real-time quiz system. At any point in time during the class, instructors can ask students to take online quiz.
+    When a question is activated by an instructor, students can see it in real-time on their mobile screens. The system can also monitor
+    stundets' status weather who and how many students have done the quiz in real-time. <br/>
+    <a class="small" target="_blank" href="http://scc.cilab.csie.ncu.edu.tw/photos/2019/award_original/2019-6-26%20%E5%85%A8%E5%9C%8B%E8%BB%9F%E9%AB%94%E5%89%B5%E4%BD%9C%E7%AB%B6%E8%B3%BD-%E9%A0%92%E7%8D%8E%E5%85%B8%E7%A6%AE21.jpg">🏆 This system is a part of the project that won first place in the 2019 Creative Software Applications Contest Award of Ministry of Education in Taiwan  🏆</a>
   used:
-    - thing: JavaScript
-    - thing: React
-    - thing: React Router
-    - thing: Axios
-    - thing: YouTube API
-
-- name: Halcyon Theme
-  url: https://bchiang7.github.io/halcyon-site/
-  code: https://github.com/bchiang7/halcyon-site
-  description: A minimal, dark theme for Sublime Text, Atom, VS Code, and more published to <a class="underline-link" href="https://packagecontrol.io/packages/Halcyon%20Theme">Package Control</a>, <a class="underline-link" href="https://atom.io/themes/halcyon-syntax">Atom Package Manager</a>, <a class="underline-link" href="https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode">Visual Studio Marketplace</a>, and <a class="underline-link" href="https://www.npmjs.com/package/hyper-halcyon-theme">NPM</a>.
-  used:
-    - thing: Gatsby
-    - thing: Sublime Text
-    - thing: Atom
-    - thing: VS Code
-    - thing: iTerm2
-    - thing: Hyper
-
-- name: Lonely Planet DBMS
-  url: https://github.com/bchiang7/CS3200-Project
-  code: https://github.com/bchiang7/CS3200-Project
-  description: Final project for my Database Design course at Northeastern. A simple web application that allows users to filter through a database containing Lonely Planet's <a class="underline-link" href="https://www.amazon.com/Lonely-Planets-Ultimate-Travel-Places/dp/1760342777" target="_blank">Top 500 Travel Destinations</a>. Users are able to add themselves as visitors as well as leave reviews of the destinations.
-  used:
-    - thing: Python
-    - thing: MySQL
-    - thing: Flask
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
-
-- name: myNEU Redesign
-  url: https://bchiang7.github.io/Redesign-myNEU/
-  code: https://github.com/bchiang7/Redesign-myNEU
-  description: myNEU student portal web prototype for my information science senior project. I conducted a study that aimed to answer the question of how myNEU can be improved to provide students at Northeastern with a better user experience. Informed by usability metrics gathered from user tests, I redesigned and developed a web prototype of myNEU.
-  used:
-    - thing: Jekyll
-    - thing: HTML
-    - thing: SCSS
-    - thing: JavaScript
-
-- name: Crowd DJ
-  url: https://github.com/crowddj/crowddj-react
-  code: https://github.com/crowddj/crowddj-react
-  description:
-    A web app that allows people who are at a party or social gathering with a DJ to request songs via their smartphones. The web app allows people to see the currently playing song, request songs, upvote songs, and rate songs so the DJ can see how the crowd is feeling and act accordingly. In other words, Crowd DJ is essentially a crowdsourced music queue. <br>
-    <a class="small" href="http://projects.hackbeanpot.com/2017-projects.html">🏆 Won Best UI/UX Design at Hackbeanpot 2017 🏆</a>
-  used:
-    - thing: React
-    - thing: Sass
-    - thing: Firebase
-    - thing: Spotify API
-
-- name: Weather Widget
-  url: http://quiet-dusk-89245.herokuapp.com/
-  code: https://github.com/bchiang7/DemoWebApp
-  description: A simple weather app I made at HubSpot's Fall 2016 Web App Workshop with Node.js, Express, and Heroku. I used the OpenWeatherMap API to get weather and forecast data, and then used the current city's coordinates to create a map background that reflected the current city using the Google Maps API.
-  img: weather
-  used:
-    - thing: JavaScript
-    - thing: CSS
-    - thing: Node.js
-    - thing: Express
-    - thing: Heroku
-    - thing: OpenWeatherMap API
-    - thing: Google Maps API
-
-# - name: ScreenTime 2.0
-#   url: https://play.google.com/store/apps/details?id=com.starry.management
-#   description: App-blocking feature on <a class="underline-link" href="https://starry.com/station" target="_blank">Starry Station</a> that provides functionality for users to easily filter content, pause the internet, and even create custom rules for blocking apps like Facebook and Twitter right from their mobile phones. Learn more about ScreenTime 2.0 on <a class="underline-link" href="https://www.producthunt.com/tech/screentime-for-starry-station" target="_blank">Product Hunt</a> and the <a class="underline-link" href="https://blog.starry.com/whats-new-screentime-just-got-better-for-parents/" target="_blank">Starry Blog</a>.
-#   used:
-#   - thing: JavaScript
-#   - thing: CSS
-#   - thing: Handlebars
-#   - thing: Backbone
-#   - thing: Marionette
-#   - thing: Cordova
-
-- name: Personal Website V2
-  url: https://bchiang7.github.io/v2
-  code: https://github.com/bchiang7/v2
-  description: Second iteration of my personal website. Designed and developed with a conscious effort to avoid using any superfluous frameworks like Bootstrap.
-  used:
-    - thing: Jekyll
-    - thing: Handlebars
-    - thing: SCSS
-    - thing: JavaScript
-    - thing: Github Pages
-
-- name: React Resume
-  url: https://bchiang7.github.io/react-profile/
-  code: https://github.com/bchiang7/react-profile/
-  description: An online version of my 2016 resume I made for fun. I was interested in learning React.js, so I found this <a class="underline-link" href="https://medium.com/learning-new-stuff/building-your-first-react-js-app-d53b0c98dc#.1439cdewq">simple tutorial</a> and it kind of spun into this weekend project. I probably didn't need to use React at all, but hey, at least I learned a few things!
-  used:
-    - thing: JavaScript
-    - thing: React
-    - thing: CSS
-
-- name: CourseSource
-  url: http://webdevspring2016-chiangbrittany.rhcloud.com/project/client/#/login
-  code: https://github.com/bchiang7/WebDevSpring2016/tree/master/public/project
-  description: A web application built on the MEAN (MongoDB, Express, Angular, Node) stack for my web development course at Northeastern. I created this web app with the intention of providing Northeastern Students a better experience browsing the courses offered at Northeastern.
-  used:
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
-    - thing: Node.js
-    - thing: Angular
-    - thing: Express
-    - thing: MongoDB
-
-- name: NU Women in Tech
-  url: http://nuwit.ccs.neu.edu/
-  code: https://github.com/nuwit/website
-  description: Complete overhaul and redesign of NU Women in Tech's club website using Jekyll, built while serving as web chair on the e-board.
-  used:
-    - thing: Jekyll
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
+    - thing: ASP.NET MVC5
+    - thing: Vue
+    - thing: Microsoft SingnalR
     - thing: Bootstrap
+    - thing: MSSQL
 
-- name: Fontipsums
-  url: https://bchiang7.github.io/fontipsums
-  code: https://github.com/bchiang7/fontipsums
-  description: As someone who has an eye for typography, I wanted a way to visually see different font combinations together. I whipped up this simple website to display some of my favorite pairings combined with some fun lorem ipsum variations I found on the web.
+- name: MFU Internship Information System
+  url: http://internship.mfu.ac.th/
+  code: https://github.com/sarapmax/MFU-Internship-Information-System
+  description: MIIS is a system used to store internship information of students.
   used:
-    - thing: HTML
-    - thing: SCSS
+    - thing: Laravel
+    - thing: Vue
+    - thing: Bootstrap
+    - thing: MYSQL
+
+- name: LEARN Step-by-Step
+  url: https://github.com/sarapmax/learn-sbs
+  code: https://github.com/sarapmax/learn-sbs
+  description: A final project for my mobile class. LearnSBS is an android app that allows students to learn programming step by step.
+  used:
+  - thing: Android Studio
+  - thing: Firebase
+
+- name: ZION Church - ERP System
+  url: https://github.com/sarapmax/ZION-Church-ERP-System
+  code: https://github.com/sarapmax/ZION-Church-ERP-System
+  description: An ERP system I built for my church. The system is used to store church members, financial records.
+    The system will be further developed in the future.
+  used:
+    - thing: Laravel
+    - thing: Vue
+    - thing: Bootstrap
+    - thing: MYSQL
+
+- name: RICH RCM
+  url: https://github.com/sarapmax/RICH-RCM-Money-Exchange-Rate-Web-App
+  code: https://github.com/sarapmax/RICH-RCM-Money-Exchange-Rate-Web-App
+  description: A web app that allows users to track currency exchange rates on monitor in real-time.
+  used:
+    - thing: Laravel
+    - thing: Vue
+    - thing: Bulma CSS
+    - thing: Pusher
+    - thing: MYSQL
+
+- name: Veggie Box
+  url: https://github.com/sarapmax/Veggie-Box-Bachelors-Senior-project
+  code: https://github.com/sarapmax/Veggie-Box-Bachelors-Senior-project
+  description:
+   This is my senior project when I was doing a bachelor's degree at MFU in Thailand. I was one of eight students in the group.
+    This is an e-commerce web app that sells organic products.
+   The system has 3 roles of users (i.e. farmer, admin, customer). Farmers can add their products to the system, admins are responsible
+    for selecting products to sell to customers. As a result, the system can match farmers' supplies and customers' demands. <br/>
+    <a class="small" target="_blank" href="https://www.researchgate.net/publication/316447933_Proposed_of_e-Community_Supported_Agriculture_e-CSA_system_to_promote_local_organic_products_The_empirical_study_of_Chiang_Rai_province">🏆 This project was published in 2017 🏆</a>
+  used:
+   - thing: Laravel
+   - thing: Jquerydsa
+   - thing: MYSQL
 
 - name: Personal Website V1
-  url: https://bchiang7.github.io/v1
-  code: https://github.com/bchiang7/website_2015/
-  description: My first portfolio website I designed and built in 2014. I learned quite a bit about HTML, CSS, and SEO. Since then, I think my web development and design skills have improved immensely.
+  url: https://github.com/sarapmax/4dev-studio-my-portfolio-website
+  code: https://github.com/sarapmax/4dev-studio-my-portfolio-website
+  description:
+    My first portfolio website I built in 2016. Since I had done a few freelance jobs, I dicided to build a personal website so that
+    it would give me some credit when presenting myself to clients.
   used:
-    - thing: HTML
-    - thing: CSS
+    - thing: Laravel
+    - thing: Jquery
+    - thing: MYSQL
+
+- name: TAB Member system
+  url: https://github.com/sarapmax/Tab-Member
+  code: https://github.com/sarapmax/Tab-Member
+  description: A system I built for a blind people's association. The system is used to store records of blind people.
+  used:
+    - thing: Laravel
+    - thing: Jquery
     - thing: Bootstrap
-    - thing: JavaScript
-    - thing: jQuery
+    - thing: MYSQL
 
-- name: One Card For All
-  url: http://onecardforall.org
-  description: MullenLowe's 2016 holiday site built around an algorithm that generates a holiday greeting to each and every person on the planet. As new names appear, visitors can watch them fall, like snowflakes, onto a stylized world map. Users can also find their own name and see it as part of the world collective. Check out this short <a class="underline-link" href="http://us.mullenlowe.com/work/one-card-for-all/" target="_blank">video</a> describing the project.
+- name: Intouch Technology E-commerce Web App
+  url: https://github.com/sarapmax/intouch-technology
+  code: https://github.com/sarapmax/intouch-technology
+  description: An very first e-commerce web app I built for a client.
+  used:
+    - thing: Laravel
+    - thing: Juqery
+    - thing: Bootstrap
+    - thing: MYSQL
+
+- name: Regent Mansion Dormitory Website
+  url: http://www.regentmfu.net/
+  code:
+  description: My first job as a freelance web developer in 2015. It's a static website that shows photo gallery, facilities details and pictures, room rates,
+   and webboard.
   used:
     - thing: HTML
-    - thing: SCSS
-    - thing: JavaScript
-    - thing: jQuery
-
-- name: JetBlue HumanKinda
-  url: http://jetbluehumankinda.com
-  description: Tumblr site complementing JetBlue's HumanKinda campaign and documentary. The site houses the video documentary, many graphics created by Mullen for the campaign, and an interactive quiz to determine how "HumanKinda" you are. Learn more about this project <a class="underline-link" href="http://us.mullenlowe.com/work/humankinda/" target="_blank">here</a>.
-  used:
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
-    - thing: jQuery
+    - thing: Bootstrap
+    - thing: Juqery
+    - thing: Disqus Webboard API

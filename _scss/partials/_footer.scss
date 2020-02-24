@@ -3,17 +3,46 @@
   align-items: right;
   text-align: right;
   @include desktop {
-    padding: 50px;
+    padding: 30px;
   }
   @include weird-medium {
     display: block;
   }
   @include mobile {
-    padding: 50px 30px;
+    padding: 30px 30px;
+  }
+  &__socials {
+    display: none;
+
+    @include desktop {
+      display: block;
+
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        li {
+          margin: 0 6px;
+
+          a {
+            padding: 4px;
+            display: inline-block;
+
+            &:hover, &:focus {
+              transform: translateY(-3px);
+              color: $blue;
+            }
+          }
+        }
+      }
+
+    }
   }
   &__copyright {
     font-weight: 700;
-    @include weird-medium {
+    @include desktop {
+      margin-top: 10px;
       width: auto;
       text-align: center;
       margin-bottom: 25px;

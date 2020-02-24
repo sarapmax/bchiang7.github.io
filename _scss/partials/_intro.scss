@@ -1,11 +1,14 @@
 .intro {
-  padding: 120px 100px;
+  padding: 120px 200px;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   max-width: 1440px;
   margin: 0 auto;
+  @include little-desktop {
+    padding: 120px 100px;
+  }
   @include weird-medium {
     padding: 120px 70px;
   }

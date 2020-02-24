@@ -1,7 +1,18 @@
 <footer class="footer">
+  <div class="footer__socials">
+    <ul>
+      {% for link in site.social %}
+      <li>
+        <a href="{{link.url}}" target="_blank" title="{{link.title}}">
+          <i class="ri-{{link.icon}}-fill ri-2x"></i>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
   <div class="footer__copyright">
     <div class="top">
-      <span>Inspired by</span>
+      <span>Design Inspired by</span>
     </div>
     <div class="bottom">
       <a href="https://brittanychiang.com/" target="_blank">https://brittanychiang.com</a>

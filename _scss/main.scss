@@ -2,7 +2,8 @@
 @import 'partials/fonts';
 @import 'partials/base';
 @import 'partials/switch';
-@import 'partials/socials';
+@import 'partials/left-side-socials';
+@import 'partials/right-side-email';
 @import 'partials/intro';
 @import 'partials/skills';
 @import 'partials/experience';
@@ -11,3 +12,5 @@
 @import 'partials/other-projects';
 @import 'partials/footer';
 @import 'partials/404';
+
+//@import '~remixicon/fonts/remixicon.css';
