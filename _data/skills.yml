@@ -2,7 +2,7 @@ languages:
   - item: PHP
   - item: C#
   - item: JavaScript (ES6)
-  - item: CSS/Sass
+  - item: S(CSS)
   - item: SQL
 
 frameworks:
