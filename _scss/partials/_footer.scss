@@ -1,15 +1,15 @@
 .footer {
-  padding: 50px 80px;
+  padding: 0 80px 30px 80px;
   align-items: right;
   text-align: right;
   @include desktop {
-    padding: 30px;
+    padding: 0 30px 30px 30px;
   }
   @include weird-medium {
     display: block;
   }
   @include mobile {
-    padding: 30px 30px;
+    padding: 0 30px 30px 30px;
   }
   &__socials {
     display: none;

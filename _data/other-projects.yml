@@ -1,9 +1,9 @@
 - name: IRS System
   url: http://140.116.177.47/irsweb/lecturer/question
   code: https://github.com/sarapmax/IRS-System-Masters-Project
-  description: IRS System is a real-time quiz system. At any point in time during the class, instructors can ask students to take online quiz.
-    When a question is activated by an instructor, students can see it in real-time on their mobile screens. The system can also monitor
-    stundets' status weather who and how many students have done the quiz in real-time. <br/>
+  description: IRS System is a real-time quiz system. At any point in time during the class, instructors can ask students to take an online quiz.
+    When an instructor activates a question, students can see it in real-time on their mobile screens. The system can also monitor
+    students' status weather who and how many students have done the quiz in real-time. <br/>
     <a class="small" target="_blank" href="http://scc.cilab.csie.ncu.edu.tw/photos/2019/award_original/2019-6-26%20%E5%85%A8%E5%9C%8B%E8%BB%9F%E9%AB%94%E5%89%B5%E4%BD%9C%E7%AB%B6%E8%B3%BD-%E9%A0%92%E7%8D%8E%E5%85%B8%E7%A6%AE21.jpg">🏆 This system is a part of the project that won first place in the 2019 Creative Software Applications Contest Award of Ministry of Education in Taiwan  🏆</a>
   used:
     - thing: ASP.NET MVC5
@@ -15,7 +15,9 @@
 - name: MFU Internship Information System
   url: http://internship.mfu.ac.th/
   code: https://github.com/sarapmax/MFU-Internship-Information-System
-  description: MIIS is a system used to store internship information of students.
+  description: MIIS is a system used to store internship information of students. During the period of internship,
+    students need to record their internship information such as personal information, monthly responsibilities, schedules, and onsite teacher visit.
+
   used:
     - thing: Laravel
     - thing: Vue
@@ -33,7 +35,7 @@
 - name: ZION Church - ERP System
   url: https://github.com/sarapmax/ZION-Church-ERP-System
   code: https://github.com/sarapmax/ZION-Church-ERP-System
-  description: An ERP system I built for my church. The system is used to store church members, financial records.
+  description: An ERP system I built for my church. The system is used to store church members' information, financial records.
     The system will be further developed in the future.
   used:
     - thing: Laravel
@@ -56,10 +58,8 @@
   url: https://github.com/sarapmax/Veggie-Box-Bachelors-Senior-project
   code: https://github.com/sarapmax/Veggie-Box-Bachelors-Senior-project
   description:
-   This is my senior project when I was doing a bachelor's degree at MFU in Thailand. I was one of eight students in the group.
-    This is an e-commerce web app that sells organic products.
-   The system has 3 roles of users (i.e. farmer, admin, customer). Farmers can add their products to the system, admins are responsible
-    for selecting products to sell to customers. As a result, the system can match farmers' supplies and customers' demands. <br/>
+    This was my senior project when I was doing a bachelor's degree at Mae Fah Luang University in Thailand. I was one of eight students in the group. It is an e-commerce web app that sells organic products.
+    The system has three roles of users (i.e., farmer, admin, customer). Farmers can add their products to the system, and admins are responsible for selecting products to sell to customers. As a result, the system can match the farmers' supply and customers' demands. <br/>
     <a class="small" target="_blank" href="https://www.researchgate.net/publication/316447933_Proposed_of_e-Community_Supported_Agriculture_e-CSA_system_to_promote_local_organic_products_The_empirical_study_of_Chiang_Rai_province">🏆 This project was published in 2017 🏆</a>
   used:
    - thing: Laravel
@@ -80,17 +80,17 @@
 - name: TAB Member system
   url: https://github.com/sarapmax/Tab-Member
   code: https://github.com/sarapmax/Tab-Member
-  description: A system I built for a blind people's association. The system is used to store records of blind people.
+  description: A system I built for a blind people's association. The system is used to store blind people information.
   used:
     - thing: Laravel
     - thing: Jquery
     - thing: Bootstrap
     - thing: MYSQL
 
-- name: Intouch Technology E-commerce Web App
+- name: Intouch Technology E-commerce
   url: https://github.com/sarapmax/intouch-technology
   code: https://github.com/sarapmax/intouch-technology
-  description: An very first e-commerce web app I built for a client.
+  description: A very first e-commerce web app I built for a client.
   used:
     - thing: Laravel
     - thing: Juqery
@@ -100,7 +100,7 @@
 - name: Regent Mansion Dormitory Website
   url: http://www.regentmfu.net/
   code:
-  description: My first job as a freelance web developer in 2015. It's a static website that shows photo gallery, facilities details and pictures, room rates,
+  description: My first job as a freelance developer in 2015. It's a static website that shows photo gallery, facilities details and pictures, room rates,
    and webboard.
   used:
     - thing: HTML
