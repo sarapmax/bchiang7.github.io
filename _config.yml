@@ -5,18 +5,22 @@ description: A full-stack developer who loves to build things for the web.
 url: https://teerpong.me
 baseurl: ''
 email: teerpong.me@gmail.com
-cover: https://bchiang7.github.io/img/og.png
-logo: https://bchiang7.github.io/img/emojis/technologist.png
-resume: https://bchiang7.github.io/resume.pdf
+cover: https://teerpong.me/img/og.png
+logo: https://teerpong.me/img/emojis/technologist.png
+resume: https://teerpong.me/resume.pdf
 social:
   - title: twitter
     url: https://twitter.com/bchiang7
+    icon: twitter
   - title: facebook
     url: https://instagram.com/bchiang7
+    icon: facebook-box
   - title: github
     url: https://github.com/bchiang7
+    icon: github
   - title: linkedin
     url: https://www.linkedin.com/in/bchiang7
+    icon: linkedin-box
 
 # Build settings
 markdown: kramdown
