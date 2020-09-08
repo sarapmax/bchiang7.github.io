@@ -10,7 +10,8 @@
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp serve",
-    "build": "gulp build"
+    "build": "gulp build",
+    "jekyll": "bundle exec jekyll serve"
   },
   "author": "Brittany Chiang",
   "license": "ISC",
