@@ -1,6 +1,5 @@
 - name: IRS System
   url: http://140.116.177.47/irsweb/lecturer/question
-  code: https://github.com/sarapmax/IRS-System-Masters-Project
   description: IRS System is a real-time quiz system. At any point in time during the class, instructors can ask students to take an online quiz.
     When an instructor activates a question, students can see it in real-time on their mobile screens. The system can also monitor
     students' status weather who and how many students have done the quiz in real-time. <br/>
@@ -14,7 +13,6 @@
 
 - name: MFU Internship Information System
   url: http://internship.mfu.ac.th/
-  code: https://github.com/sarapmax/MFU-Internship-Information-System
   description: MIIS is a system used to store internship information of students. During the period of internship,
     students need to record their internship information such as personal information, monthly responsibilities, schedules, and onsite teacher visit.
 

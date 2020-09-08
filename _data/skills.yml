@@ -7,11 +7,11 @@ languages:
 
 frameworks:
   - item: Laravel
+  - item: Vue
+  - item: Bootstrap
   - item: ASP.NET Core
   - item: Wordpress
   - item: Jquery
-  - item: Vue
-  - item: Bootstrap
   - item: Tailwind CSS
 
 tools:
