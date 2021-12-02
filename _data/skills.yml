@@ -1,27 +1,32 @@
 languages:
   - item: PHP
-  - item: C#
+  - item: NodeJS
   - item: JavaScript (ES6)
+  - item: Typescript
+  - item: C#
   - item: S(CSS)
   - item: SQL
 
 frameworks:
+  - item: VueJs
   - item: Laravel
-  - item: Vue
-  - item: Bootstrap
+  - item: Nuxtjs
+  - item: Nestjs
   - item: ASP.NET Core
-  - item: Wordpress
   - item: Jquery
+  - item: Wordpress
+  - item: Vuetify
+  - item: Bootstrap
   - item: Tailwind CSS
 
 tools:
-  - item: Bash
-  - item: Git
-  - item: WebPack
-  - item: Photoshop
+  - item: Docker
+  - item: CI/CD
+  - item: AWS
 
 others:
   - item: TDD
+  - item: Unit Testing
+  - item: Git Flow
+  - item: Scrum/Agile Methodologies
   - item: Software Architecture Design
-  - item: Prototyping
-  - item: Wireframing

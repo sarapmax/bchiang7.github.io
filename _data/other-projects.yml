@@ -11,17 +11,6 @@
     - thing: Bootstrap
     - thing: MSSQL
 
-- name: MFU Internship Information System
-  url: http://internship.mfu.ac.th/
-  description: MIIS is a system used to store internship information of students. During the period of internship,
-    students need to record their internship information such as personal information, monthly responsibilities, schedules, and onsite teacher visit.
-
-  used:
-    - thing: Laravel
-    - thing: Vue
-    - thing: Bootstrap
-    - thing: MYSQL
-
 - name: LEARN Step-by-Step
   url: https://github.com/sarapmax/learn-sbs
   code: https://github.com/sarapmax/learn-sbs
