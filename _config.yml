@@ -1,13 +1,13 @@
 # Site settings
 name: Max
-title: Max | Full Stack Web Developer
-description: A full-stack developer who loves to build things for the web.
+title: Max | Tech Enthusiast
+description: A tech enthusiast who loves to build things for the web.
 url: https://teerpong.me
 baseurl: ''
 email: teerpong.me@gmail.com
 cover: https://teerpong.me/img/og.png
 logo: https://teerpong.me/img/emojis/technologist.png
-resume: https://teerpong.me/resume-v3.pdf
+resume: https://teerpong.me/resume-v4.pdf
 social:
   - title: twitter
     url: https://twitter.com/sarapmax

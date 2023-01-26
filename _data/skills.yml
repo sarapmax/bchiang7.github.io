@@ -25,8 +25,9 @@ tools:
   - item: AWS
 
 others:
+  - item: Agile/Scrum Methodologies
+  - item: Software Architecture Design
+  - item: API Design
   - item: TDD
   - item: Unit Testing
   - item: Git Flow
-  - item: Scrum/Agile Methodologies
-  - item: Software Architecture Design
