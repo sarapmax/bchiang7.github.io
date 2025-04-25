@@ -1,18 +1,20 @@
 languages:
-  - item: PHP
+  - item: Golang
+  - item: Typescript
   - item: NodeJS
   - item: JavaScript (ES6)
-  - item: Typescript
-  - item: C#
+  - item: PHP
   - item: S(CSS)
   - item: SQL
 
 frameworks:
+  - item: Express.js
+  - item: Nextjs
   - item: VueJs
   - item: Laravel
   - item: Nuxtjs
-  - item: Nestjs
-  - item: ASP.NET Core
+  - item: Reactjs
+  - item: Nextjs
   - item: Jquery
   - item: Wordpress
   - item: Vuetify
@@ -28,6 +30,9 @@ others:
   - item: Agile/Scrum Methodologies
   - item: Software Architecture Design
   - item: API Design
+  - item: Microservice Architecture Design
+  - item: Message Queue (Kafka)
+  - item: Clean Architecture
   - item: TDD
   - item: Unit Testing
   - item: Git Flow

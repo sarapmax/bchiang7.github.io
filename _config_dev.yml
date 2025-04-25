@@ -1,13 +1,13 @@
 # Site settings
 name: Max
 title: Max | Tech Enthusiast
-description: A tech enthusiast who loves to build things for the web.
-url: https://teerpong.me
+description: A tech enthusiast who loves to build and engineer scalable and efficient software solutions
+url: https://teerpong.netlify.app
 baseurl: ''
 email: teerpong.me@gmail.com
-cover: https://teerpong.me/img/og.png
-logo: https://teerpong.me/img/emojis/technologist.png
-resume: https://teerpong.me/resume-v4.pdf
+cover: https://teerpong.netlify.app/img/og.png
+logo: https://teerpong.netlify.app/img/emojis/technologist.png
+resume: https://teerpong.netlify.app/resume-v6.0.pdf
 social:
   - title: twitter
     url: https://twitter.com/sarapmax
